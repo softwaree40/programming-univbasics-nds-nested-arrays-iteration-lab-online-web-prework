@@ -1,5 +1,5 @@
 def join_ingredients(src)
-    return ["I love element1 and element2 on mypizza"]
+    return ["I love #{element1} and #{element2} on mypizza"]
     
 end
 
