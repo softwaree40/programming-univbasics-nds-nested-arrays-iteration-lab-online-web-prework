@@ -14,7 +14,7 @@ def find_greater_pair(src)
   new_array = []
   src.each {|array|}
     binding.pry
-  end
+  
 end
 
 def total_even_pairs(src)
