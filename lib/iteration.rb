@@ -13,8 +13,13 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   new_array = []
   src.each  do |array|
-    binding.pry
+    if array[0] > array[1]
+      new_array << array[0]
+    else
+      new_array << array[1]
+    end
   end
+   return new_array
 end
 
 def total_even_pairs(src)
