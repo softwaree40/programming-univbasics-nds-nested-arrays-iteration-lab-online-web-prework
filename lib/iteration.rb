@@ -34,7 +34,7 @@ def total_even_pairs(src)
   src.each do |array|
     if array[0] % 2 == 0 && array[1] % 2 == 0
       
-      sum+=[array[0] + array[1]]
+      sum+=array[0] + array[1]
       
     end
   end
