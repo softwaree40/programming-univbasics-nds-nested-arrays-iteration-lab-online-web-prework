@@ -32,7 +32,9 @@ def total_even_pairs(src)
   # this!
   count = 0
   src.each do |array|
-    binding.pry
+    if array[0] % 2 == 0 || array[1] % 2 == 0 
+      count[array]+=1
+    end
   end
-  
+    return count 
 end
