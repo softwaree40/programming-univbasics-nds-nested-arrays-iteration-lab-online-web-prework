@@ -12,9 +12,9 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   new_array = []
-  src.each {|array|}
+  src.each  do |array|
     binding.pry
-  
+  end
 end
 
 def total_even_pairs(src)
