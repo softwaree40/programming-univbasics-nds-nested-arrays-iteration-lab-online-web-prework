@@ -1,7 +1,7 @@
 def join_ingredients(src)
     new_array = []
     src.each do |array|
-      new_array << 
+      # new_array << 
       # binding.pry
     end
     
