@@ -2,7 +2,7 @@ def join_ingredients(src)
     new_array = []
     src.each do |array|
     new_array.push("I love #{array[0]} and #{array[1]} on my pizza")
-      # binding.pry
+     
     end
    return new_array 
 end
