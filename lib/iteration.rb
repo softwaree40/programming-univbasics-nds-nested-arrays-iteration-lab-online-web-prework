@@ -1,8 +1,5 @@
 def join_ingredients(src)
-    src.each do |ele|
-      return "I love ele and ele on my pizza"
-    end
-  
+    
 end
 
 def find_greater_pair(src)
